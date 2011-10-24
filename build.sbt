@@ -1,4 +1,4 @@
-name := "scalawing"
+name := "scala-template"
 
 version := "0.1-SNAPSHOT"
 
