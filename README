@@ -1,4 +1,4 @@
-Scala project template using sbt
+[Scala project template using sbt]
 
 Default dependencies:
 - H2
@@ -6,3 +6,16 @@ Default dependencies:
 
 Plugins:
 - sbteclipse
+
+
+Usage:
+
+1. clone the repository
+  `git clone git@github.com:ACN-AST/scala-template.git`
+
+2. edit `build.sbt` and change the default name
+  name := "scala-template"
+
+3. put your scala sources under "src/main/scala"
+
+4. generate the eclipse project: `sbt eclipse`
