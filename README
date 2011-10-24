@@ -3,3 +3,6 @@ Scala project template using sbt
 Default dependencies:
 - H2
 - Squeryl
+
+Plugins:
+- sbteclipse
