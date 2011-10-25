@@ -7,7 +7,9 @@ scalaVersion := "2.9.1"
 // package (h2, squeryl) dependencies
 libraryDependencies ++= Seq(
 	"com.h2database" % "h2" % "latest.integration",
-	"org.squeryl" %% "squeryl" % "latest.integration"
+	"org.squeryl" %% "squeryl" % "latest.integration",
+	"org.scalatest" %% "scalatest" % "latest.integration" % "test",
+	"com.borachio" %% "borachio-scalatest-support" % "latest.integration"
 	)
 
 // scala-swing dependency
