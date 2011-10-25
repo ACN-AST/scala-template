@@ -1,11 +1,11 @@
 [Scala project template using sbt]
 
 Default dependencies:
-- H2
-- Squeryl
+- H2 (http://www.h2database.com)
+- Squeryl (http://squeryl.org)/
 
 Plugins:
-- sbteclipse
+- sbteclipse (https://github.com/typesafehub/sbteclipse)
 
 
 Usage:
