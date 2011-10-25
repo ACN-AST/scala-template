@@ -1,15 +1,15 @@
 [Scala project template using sbt]
 
 Default dependencies:
-- H2 (http://www.h2database.com)
-- Squeryl (http://squeryl.org)/
+- H2 (http://www.h2database.com) - Java database
+- Squeryl (http://squeryl.org) - ORM
+- ScalaTest (http://www.scalatest.org/) - Testing
+- Borachio (http://borachio.com/) - Mocking
 
 Plugins:
-- sbteclipse (https://github.com/typesafehub/sbteclipse)
-
+- sbteclipse (https://github.com/typesafehub/sbteclipse) - Eclipse project generator
 
 Usage:
-
 1. clone the repository
   `git clone git@github.com:ACN-AST/scala-template.git`
 
